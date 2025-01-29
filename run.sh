@@ -9,7 +9,7 @@ IMAGE_NAME="amlabdr/storage_agent:latest"
 BROKER_URL="amqp://localhost:5672/"
 ENDPOINT="TT_storage_agent"
 REMOTE_STORAGE_HOST="localhost"
-REMOTE_STORAGE_USER= "admin"
+REMOTE_STORAGE_USER="admin"
 REMOTE_STORAGE_PASSWORD="admin"
 REMOTE_STORAGE_DIR="~"
 # Stop and remove any running container with the same name
